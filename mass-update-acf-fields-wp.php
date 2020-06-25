@@ -2,7 +2,9 @@
 /* Mass Update ACF Fields to push the updates live
 * Issue occured when importing ACF fields to WP, the values were there....but not.
 * Run this once in your functions.php to update the fields and have them show properly
-* H/T to the script author: https://jboullion.com/update-acf-post-fields/ for the code */
+* H/T to the script author: https://jboullion.com/update-acf-post-fields/ for the code 
+* NOTE: This works for PUBLISHED posts only! (Or unless otherwise specified in $args[])
+*/
 
 function mass_update_posts() {
 		
